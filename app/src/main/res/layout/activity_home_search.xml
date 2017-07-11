@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumeet.kalwardirectorytry1.HomeSearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <SearchView
+            android:id="@+id/searchView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="3"
+            android:queryHint="Search By Name"
+            app:defaultQueryHint="Search By Name"
+            app:queryHint="Seach By Name"></SearchView>
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:queryHint="Search By City"></SearchView>
+
+        <SearchView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:queryHint="Search By State"></SearchView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/dad" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="Admin: Manoj Kumar Shah"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageView"
+        android:text="Email: samajbandhu100@gmail.com"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_dark" />
+
+    <ListView
+        android:id="@+id/listView_displayall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "234014816333",
+    "firebase_url": "https://kalwardirectorytry1.firebaseio.com",
+    "project_id": "kalwardirectorytry1",
+    "storage_bucket": "kalwardirectorytry1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234014816333:android:fee398715a087e95",
+        "android_client_info": {
+          "package_name": "com.example.sumeet.kalwardirectorytry1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234014816333-vrleqt37q16pkssh76pfhhjetvilrohf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sumeet.kalwardirectorytry1",
+            "certificate_hash": "46a562ba96447cdb01abe7c066045f9e3cffecb8"
+          }
+        },
+        {
+          "client_id": "234014816333-22ni3eau959qasghlabp2mh3hfistvd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDHmlP2uz34yViFJi40nXPqcHrmIdr2bA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234014816333-22ni3eau959qasghlabp2mh3hfistvd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

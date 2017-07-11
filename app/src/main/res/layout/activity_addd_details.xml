@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.sumeet.kalwardirectorytry1.AdddDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Residential Details"
+            android:textColor="@color/primary_text"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/et_Address_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Town_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vill/PO/Town"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_District_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_state_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Country_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Pincode_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pin Code"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_MobileNumber_R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professional Details"
+            android:textColor="@color/primary_text"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/et_Occupation_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Occupation/Service"
+            android:textColor="@color/primary_text" />
+
+
+        <EditText
+            android:id="@+id/et_Address_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Town_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vill/PO/Town"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_District_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_state_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Country_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Pincode_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pin Code"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_MobileNumber_P"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/primary_text" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social Details"
+            android:textColor="@color/primary_text"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/et_socialOrganization_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organization Associated With"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_memberAs_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member As"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Town_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Town"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_state_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/et_Country_S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="@color/primary_text" />
+
+    </LinearLayout>
+
+</ScrollView>

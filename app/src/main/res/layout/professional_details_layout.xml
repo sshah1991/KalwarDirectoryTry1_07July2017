@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:theme="@style/AppTheme">
+
+    <TextView
+        android:id="@+id/tv_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_Town"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vill/PO/Town"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_District"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="District"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_Pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pin Code"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_MobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textColor="@color/primary_dark" />
+
+    <TextView
+        android:id="@+id/tv_Proffesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proffesion"
+        android:textColor="@color/primary_dark" />
+</LinearLayout>
